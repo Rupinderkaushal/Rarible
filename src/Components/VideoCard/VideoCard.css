@@ -1,0 +1,51 @@
+.main-card{
+    /* position: relative; */
+    padding: 0px;
+    /* width: 256px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid; */
+}
+.main-card:hover{
+    cursor: pointer;
+}
+.heading-div{
+    width: 250px;
+    height: 70px;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 25px;
+    position: absolute;
+    z-index: 3;
+}
+.pic-div{
+    width: 250px;
+    height: 249px;
+    /* border: solid green; */
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    margin: 0px 10px;
+}
+.pic-div:hover .pic-child{
+    transform: scale(1.1,1.1);
+}
+.pic-div:hover .heading-div{
+    transform: scale(1,1);
+}
+.pic-child{
+    width: inherit;
+    height: inherit;
+}
+#real-vid{
+    /* border: solid red; */
+    height: 249px;
+    border-radius: 15px;
+}
+.video-crd{
+    margin: 0px 10px;
+}
+

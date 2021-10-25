@@ -1,0 +1,23 @@
+#big-div{
+    display: flex;
+    overflow-x: scroll;
+    
+}.react-multi-carousel-item, .react-multi-carousel-item--active {
+    width: 100% !important;
+}
+.react-multi-carousel-dot-list{
+    display:none;
+}
+#car{
+    /* border: solid !important; */
+    width: 100%;
+    padding: 10px;
+}
+/* .react-multi-carousel-list ul{
+    display: block;
+    position: relative;
+} */
+/* .react-multi-carousel-list ul li{
+    border: solid yellow;
+    width: 260px !important;
+} */

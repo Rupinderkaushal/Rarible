@@ -1,0 +1,23 @@
+#btn-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10px auto;
+}
+#btn-btn{
+    width: 100%;
+    font-weight: bolder;
+   border-radius: 15px;
+   padding: 10px;
+   border:linear-gradient(45deg red blue);
+  /* border:  linear-gradient(to right, rgb(12, 80, 255) 0%, rgb(12, 80, 255) 24%, rgb(91, 157, 255) 55.73%, rgb(255, 116, 241) 75%, rgb(255, 116, 241) 100%);; */
+   /* background: linear-gradient(to right, rgb(12, 80, 255) 0%, rgb(12, 80, 255) 24%, rgb(91, 157, 255) 55.73%, rgb(255, 116, 241) 75%, rgb(255, 116, 241) 100%); */
+ background: white;
+ color: blue;
+}
+#btn-btn:hover{
+    background: linear-gradient(to right, rgb(12, 80, 255) 0%, rgb(12, 80, 255) 24%, rgb(91, 157, 255) 55.73%, rgb(255, 116, 241) 75%, rgb(255, 116, 241) 100%);
+  color: black;
+}

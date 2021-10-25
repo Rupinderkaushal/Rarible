@@ -1,0 +1,58 @@
+.bid-card{
+    height: 350px;
+    width: 200px;
+    border:1px solid grey;
+    border-radius: 15px;
+    margin: 10px;
+}
+.bid-card-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.bid-card-img:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: all ease-in-out ;
+}
+#margin-div{
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    /* border: solid red; */
+}
+#bid-pic{
+    margin-left: -10px;
+}
+#card-head{
+    
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+#dots-dropdown{
+    position: absolute;
+    display: none;
+
+}
+#dots-a{
+    position: relative;
+
+}
+#pic-holder{
+    width: 180px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+#bid-card-txt{
+    font-size: 12px;
+    font-weight: bolder;
+}
+.bid-crd-tXt{
+    margin-top: -5px !important;
+    display: flex;
+    justify-content: space-between;
+    color: #008CFF;
+} 

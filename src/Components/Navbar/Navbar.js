@@ -42,7 +42,7 @@ const Navbar = () => {
         <>
         <Row id='navbar-wrapper' align="middle" span={24}  >
            
-          <Col id='img-div' offset={1} span={8}  >
+          <Col id='img-div' offset={1} span={7}  >
           <Row id="logo-div" span={24}>
           <Col span={8} >
              <img style={{height:"80px"}} src={Logo} />
@@ -52,7 +52,7 @@ const Navbar = () => {
            </Col>
           </Row>
 </Col>       
-       <Col span={10}   >
+       <Col span={11}   >
           <Row id="nav-link-wrapper"  span={24}>
               <Col id="link-col"  span={13}>
               <ul id='ul-li'>
@@ -94,7 +94,7 @@ const Navbar = () => {
        </Col>
        <Col id="navbar-btn" className='d-flex justify-content-between' span={4}   >
            <button id='btn-pro' >Create</button>
-           <button id='btn-pro' style={{background:"#ffff",color:'black',border: "1px solid #808080"}} >Sign in</button>
+           <button id='btn-pro' style={{background:"#ffff",color:'black',border: "1px solid #808080"}} >Signin</button>
            <button id="moon"><i class="fa fa-moon-o" aria-hidden="true"></i>
 </button>
        </Col>

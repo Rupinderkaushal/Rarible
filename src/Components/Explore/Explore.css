@@ -1,0 +1,38 @@
+#exp-btn{
+    font-weight: bolder;
+    font-size: 13px;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    background: white;
+    font-family: 'PT Sans', sans-serif;
+    margin: 10px;
+}
+#top-txt{
+    margin-top: -15px !important;
+    background: white;
+    position: absolute;
+    color: grey;
+    font-size: 12px;
+}
+.explore-header{
+    /* border: solid ; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.explore-button{
+    /* border: solid; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#bidcrd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}

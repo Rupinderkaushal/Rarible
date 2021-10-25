@@ -13,7 +13,9 @@
     justify-content: space-between;
     list-style-type: none;
 }
-
+#navbar-wrapper{
+    /* border: solid; */
+}
 .active{
     color:black;
 }
@@ -83,12 +85,16 @@
     font-size:15px;
     font-weight:bold;
     padding:5px 20px;
+    margin: 5px;
 }
 #moon{
     width: 35px;
     height: 35px;
     border-radius: 35px;
     border: 1px solid #808080;
+    padding: 4px 10px;
+    margin: 5px;
+
 }
 #logo-div{
     display: flex;
@@ -96,7 +102,70 @@
     align-items: center;
     justify-content: center;
 }
+
 @media(min-width:320px) and (max-width:375px){
+    #navbar-wrapper{
+        /* border: solid yellow; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .ant-row-middle{
+        align-items: flex-start;
+    }
+    #img-div{
+        margin:0px;
+    }
+#logo-div{
+    flex-direction: column !important;
+    /* border: solid red; */
+    width:98vw !important;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#nav-link-wrapper{
+    /* border: solid ; */
+    display: flex;
+    width:100vw !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#navbar-btn{
+    /* border: solid green; */
+    max-width: 100vw !important;
+      /* flex-direction: column; */
+      justify-content: space-evenly;
+      margin: 0px auto;
+}
+#link-col{
+    /* border: solid; */
+    max-width: 100%;
+    margin: 10px 0px;
+    justify-content: center;
+}
+.ul-li1{
+  justify-content: space-around !important;
+    /* border: solid; */
+}
+#btn-pro{
+    margin: 5px 20px;
+}
+#moon{
+    margin: 5px 20px;
+    
+}
+
+#a-ul{
+    position: relative;
+    width: 150px;
+    text-align: center;  
+}
+
+#a{
+    width: 100px !important;
+}
+}
+@media(min-width:376px) and (max-width:770px){
     #navbar-wrapper{
         /* border: solid yellow; */
         display: flex;

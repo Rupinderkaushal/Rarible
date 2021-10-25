@@ -1,0 +1,11 @@
+#inner-div{
+    width: inherit;
+    height: 480px;
+    border-radius: 15px;
+    /* border: solid red; */
+}
+#carouselVideoExample{
+    /* border: solid ; */
+
+    width: 500px;
+}

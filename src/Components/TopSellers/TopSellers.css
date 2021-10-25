@@ -1,0 +1,40 @@
+#seller-ul{
+    list-style-type: none;
+    color: black;
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+    margin:30px 50px;
+    border: 1px solid black;
+}
+#seller-ul li{
+    font-weight: bolder;
+    margin-left: -30px;
+    padding: 5px 40px;
+   font-size: 13px;
+}
+#top-col{
+    margin: 0px 20px;
+    display: flex;
+    overflow-x: scroll;
+}
+#top-col::-webkit-scrollbar {
+    display: none;
+  }
+.seller-header{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#seller-ul-one{
+    font-size: 15px;
+    position: absolute;
+    list-style-type: none;
+    display: none;
+}
+.main-wrapper-top-seller{
+    margin: 10px 0px;
+   
+}

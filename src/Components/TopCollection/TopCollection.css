@@ -1,0 +1,32 @@
+#collected-dropdown{
+    display: none;
+    position: absolute;
+    font-size: 15px;
+}
+.top-collection-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.collection-dropdown{
+    position: relative;
+}
+#collection-text{
+    font-size: 25px;
+    font-weight: bold;
+}
+.collection-button{
+    border-radius: 15px;
+}
+#btn-text{
+    font-weight: bolder;
+}
+#top-col{
+    margin: 0px 20px;
+    display: flex;
+    overflow-x: scroll;
+}
+#top-col::-webkit-scrollbar {
+    display: none;
+  }
