@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    overflow: scroll;
 }
 .main-card:hover{
     cursor: pointer;
@@ -20,7 +19,7 @@
 }
 .pic-div{
     width: 250px;
-    height: 259px;
+    height: 222px;
     overflow: hidden;
     border-radius: 15px;
     position: relative;
@@ -39,7 +38,7 @@
     border-radius: 15px;
 }
 #real-vid{
-    height: 249px;
+    height: 222px;
     border-radius: 15px;
 }
 .video-crd{

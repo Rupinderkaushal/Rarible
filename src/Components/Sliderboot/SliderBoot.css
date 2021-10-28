@@ -5,6 +5,7 @@
 }
 #carouselVideoExample{
     width: 500px;
+    margin-top: 15px;
     height: 450px;
 }
 .carousel-inner{
