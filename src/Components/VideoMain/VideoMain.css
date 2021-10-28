@@ -6,6 +6,15 @@
 }
 #car{
     display: flex;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: auto;
     /* border: solid; */
+}
+#car::-webkit-scrollbar{
+    display: none;
+}
+#yes{
+    /* overflow: scroll; */
 }
 

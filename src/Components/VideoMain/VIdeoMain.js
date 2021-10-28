@@ -22,7 +22,7 @@ const VideoMain = () => {
            <Videoflex /> 
               
                 </Carousel> */}
-                <div style={{display:"flex",alignItems:"center"}}>
+                <div >
                 <SliderBoot/>
                 </div>
                <div id="yes">

@@ -1,6 +1,8 @@
 .main-card{
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    overflow: scroll;
 }
 .main-card:hover{
     cursor: pointer;
