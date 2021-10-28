@@ -1,0 +1,12 @@
+#bump{
+    /* border: solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 220px;
+    margin: 10px 0px;
+}
+#vivi-crd{
+    border-radius: 15px;
+}

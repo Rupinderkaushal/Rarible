@@ -10,6 +10,7 @@ import LiveAuctions from './Components/LiveAuctions/LiveAuctions';
 import Explore from './Components/Explore/Explore';
 import Button from "./Components/Button/Button"
 import Footer1 from './Components/Footer1/Footer1';
+import Videoflex from './Components/mainvideoflex/Videoflex';
 function App() {
   return (
     <div className="App">

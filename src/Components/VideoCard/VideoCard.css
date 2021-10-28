@@ -1,10 +1,6 @@
 .main-card{
-    /* position: relative; */
-    padding: 0px;
-    /* width: 256px; */
     display: flex;
     flex-wrap: wrap;
-    /* border: solid; */
 }
 .main-card:hover{
     cursor: pointer;
@@ -22,8 +18,7 @@
 }
 .pic-div{
     width: 250px;
-    height: 249px;
-    /* border: solid green; */
+    height: 259px;
     overflow: hidden;
     border-radius: 15px;
     position: relative;
@@ -39,15 +34,13 @@
 .pic-child{
     width: inherit;
     height: inherit;
+    border-radius: 15px;
 }
 #real-vid{
-    /* border: solid red; */
     height: 249px;
     border-radius: 15px;
 }
 .video-crd{
-    margin: 0px 10px;
+    margin: 2px 10px;
 }
-#video-pic{
-    
-}
+
