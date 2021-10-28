@@ -11,7 +11,7 @@ const VideoCard = ({Heading,pic,video}) => {
            
            {pic && 
             <div className="pic-div">
-                <img  src={pic} className="pic-child"/> 
+                <img id='video-pic' src={pic} className="pic-child"/> 
             </div>
 }
 
